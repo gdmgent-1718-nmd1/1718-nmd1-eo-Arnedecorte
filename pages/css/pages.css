@@ -31,11 +31,6 @@ body {
     color: #000000;
   }
 
-img {
-    max-width: 30%;
-}
-
-
 h1 {
     font-family: 'montserrat';
     font-size: 50px; 
@@ -63,5 +58,14 @@ p, ul {
     padding-right: 30px;
    
 }
+
+.logo, .media, .kleur{
+  width:150px
+}
+
+.design{
+    width:400px
+}
+
 
 
