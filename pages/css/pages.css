@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -36,6 +36,7 @@ h1 {
     font-size: 50px; 
     text-align: left;
     color: hsla(244, 59%, 56%, 1);
+
 }
 
 h2, h3 {
@@ -69,3 +70,31 @@ p, ul {
 
 
 
+h2, h3 {
+    font-family: 'montserrat';
+    font-size: 28px; 
+    color: #000000;
+
+}
+
+p, ul {
+    font-family: 'montserrat';
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+   
+}
+
+.paragraaf {
+    max-width: 500px;
+    padding-right: 30px;
+   
+}
+
+.logo, .media, .kleur{
+  width:150px
+}
+
+.design{
+    width:400px
+}
