@@ -1,113 +1,144 @@
- body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #333;
-    line-height: 1.5em;
-    margin-left: 100px;
-    margin-top: 30px;
-    padding:30px;
+ <!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Styleguide - Eindopdracht NMD-I</title>
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <h1>Digital Styleguide</h1>
+<br>
 
-}
-.btn {
-    background-color: #000000;
-    border: none;
-    color: #FFFFFF;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 4px 2px;
-    transition: 0.3s;
-  }
+        <h2>Introductie in de Digital Styleguide</h2>
+            <p>Dit is het digitale huisstijlhandboek van Daylife Festival. Hier kan je alle elementenen van de gebruikersinterface terugvinden. </p>
 
-  .btn:hover {
-    background-color: rgb(255, 255, 255);
-    border: 3px solid hsla(244, 59%, 56%, 1);
-    color: hsla(244, 59%, 56%, 1);
-  }
+            <br>
 
-h1 {
-    font-family: 'montserrat';
-    font-size: 50px; 
-    text-align: left;
-    color: hsla(244, 59%, 56%, 1);
+        <h2>Logo</h2>
+        <div class="paragraaf">
+            <p>Het logo van Daylife Festival is een tekstlogo, bestaande uit:
+                <ul>
+                    <li>Het font Steelfish, 80pt, Regular, voor de tekst 'Daylife'</li>
+                    <li>Het font Montserrat, 22pt, Regular, voor de tekst 'Festival'</li>
+                </ul>
+            </p>
+        </div>
+        <img src="images/LogoDaylife.png" class="logo">
+        </div>
 
-}
+        <br>
 
-h2, h3 {
-    font-family: 'montserrat';
-    font-size: 28px; 
-    color: #000000;
+        <h3>Waar plaats je het logo?</h3>
+            <p>Het logo dient altijd in het midden van de menubalk geplaatst te worden. <br>
+            Wil je het logo op drukwerk plaatsen, zorg dan zeker dat alle groottes gerespecteerd zijn. </p>
+              
+            <br>
 
-}
+        <h2>Navigeren</h2>
+        <div class="paragraaf">
+            <p>Navigeren kan je via de menubalk. De menubalk bestaat uit een opdeling van 6 tabbladen, met in het midden het Daylife logo. De tekst in de menubalk dient 
+                <ul>
+                    <li>een grootte te hebben van 21pt </li>
+                    <li>te bestaan uit het lettertype Montserrat, Regular</li>
+                </ul>
+                </p>
+    
+        </div>
+  <br>
+        <h2>Informatieve Tekst</h2>
+        <div class="paragraaf">
+            <p>Alle informatieve tekst, hiermee bedoelen we ook titels en ondertitels, dient in het font Montserrat te staan.
+            Doorlopende tekst moet tussen 15 pt en 20 pt liggen. Afhankelijk van de plaats die er is kan je kiezen tussen 15 of 20 pt.
+        <ul> 
+            <li>Titels staan in Montserrat, semibold, 35-70 pt.</li>
+            <li>Ondertitels staan in Montserrat, medium, 30-40 pt.</li> 
+        </p>
+        </ul>
+<br>
+        </div>        
+        <h2>Iconen</h2>
+        <div class="paragraaf">
+            <p> De iconenbalk die gebruikt wordt is hieronder te vinden. Deze dient altijd rechtsonderaan van elk tabblad te staan, uitgelijnd in het midden van de paarse balk.</p>
+        </div>
+        <img src="images/media.png"  class="media">
+        
+<br>
+<br>
+        <h2>Kleur</h2>
+        <p>Paars</p>
+        <ul>
+            <li>hsla (244, 59%, 56%, 1) </li>
+        </ul>
+        <p>Zwart</p>
+        <ul>
+            <li>hsla (0, 0%, 0%, 1) </li>
+        </ul>
+        <p>Wit</p>
+        <ul>
+            <li>hsla (360, 100%, 100%, 1) </li>
+        </ul>
 
-p, ul {
-    font-family: 'montserrat';
-    font-size: 16px;
-    text-align: left;
-    color: #000000;
-   
-}
+        <img src="images/kleur.png"  class="kleur">
 
-.paragraaf {
-    max-width: 500px;
-    padding-right: 30px;
-   
-}
+        <br>
+        <br>
 
-.logo, .media, .kleur{
-  width:150px
-}
+        <h2>Grafisch Design</h2>
 
-.design{
-    width:400px
-}
+        <div class="paragraaf">
+            <p>Het design van de website bestaat voornamelijk uit geometrische figuren.  
+            </p>
+          
+        </div>
+        <img src="images/DesignBG.png"  class="design">
+<br>
+<br>
+        <h2>Knoppen</h2>
+        <p>Knop 'Ervaring'</p>
+        <ul>
+           <li>Montserrat 13pt, color: hsla (360, 100%, 100%, 1) </li>
+           <li>background-color: #000000</li>
+            <li>border: none;</li>
+            <li>color: #FFFFFF</li>
+            <li>padding: 16px 32px</li>
+            <li>text-align: center</li>
+            <li>font-size: 16px</li>
+            <li>text-transform: uppercase</li>
+            <li>margin: 4px 2px</li>
+            <li>transition: 0.3s</li>
+           <li>Hover: background-color: rgb(255, 255, 255);
+                border: 3px solid #000000;
+                color: #000000;</li>
+            <li>Knop linken met het 'Ervaring' tabblad. Dit kan je doen door: a href ="ervaring.html"</li>
+        
+        </ul>
+        <button class="btn">Ervaring</button>
 
-
-
-h2, h3 {
-    font-family: 'montserrat';
-    font-size: 28px; 
-    color: #000000;
-
-}
-
-p, ul {
-    font-family: 'montserrat';
-    font-size: 16px;
-    text-align: left;
-    color: #000000;
-   
-}
-
-.paragraaf {
-    max-width: 500px;
-    padding-right: 30px;
-   
-}
-
-.logo, .media, .kleur{
-  width:150px;
-}
-
-.design{
-    width:400px;
-}
-
-
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
-
-a:link{
-    color: #FFFFFF;
-}
-
-a:hover{
-    color: hsla(244, 59%, 56%, 1);
-}
+        <p>Knop 'vraag vip aan'</p>
+        <ul>
+           <li>Montserrat 24pt, color: hsla (360, 100%, 100%, 1) </li>
+           <li>background-color: #000000</li>
+            <li>border: none;</li>
+            <li>color: #FFFFFF</li>
+            <li>padding: 16px 32px</li>
+            <li>text-align: center</li>
+            <li>font-size: 16px</li>
+            <li>text-transform: uppercase</li>
+            <li>margin: 4px 2px</li>
+            <li>transition: 0.3s</li>
+           <li>Hover: background-color: rgb(255, 255, 255);
+                border: 3px solid #000000;
+                color: #000000;</li>
+            <li>Knop linken met het mailadres van Daylife. Dit kan je doen door: a href="mailto:info@daylifefestival.be?Subject=Aanvraag%20Vip" target="_top"</li>
+                
+        </ul>
+        <button class="btn">
+            <a href="mailto:info@daylifefestival.be?Subject=Aanvraag%20Vip" target="_top"vraag vip aan> 
+                vraag vip aan
+            </a>
+        </button>
+        </div>    
+</body>
+</html>
