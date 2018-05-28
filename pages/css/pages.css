@@ -27,8 +27,8 @@
 
   .btn:hover {
     background-color: rgb(255, 255, 255);
-    border: 3px solid #000000;
-    color: #000000;
+    border: 3px solid hsla(244, 59%, 56%, 1);
+    color: hsla(244, 59%, 56%, 1);
   }
 
 h1 {
@@ -92,9 +92,22 @@ p, ul {
 }
 
 .logo, .media, .kleur{
-  width:150px
+  width:150px;
 }
 
 .design{
-    width:400px
+    width:400px;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link{
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: hsla(244, 59%, 56%, 1);
 }
